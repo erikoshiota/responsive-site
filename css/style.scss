@@ -1,11 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Abel);
 
+
 .top {
   background-image: url("../images/top.jpeg");
   height: 500px;
   width: 100%;
   background-size: cover;
-  background-position: center top;
+  background-position: top center;
   
   @media (max-width: 768px) {
       height: 250px;
@@ -16,7 +17,8 @@
     display: block;
     border: 2px solid #fff;
     width: 96%;
-    margin: 20px auto;
+    margin: 30px auto;
+    padding: 50px;
 
     h2 {
         text-align: center;
@@ -28,14 +30,13 @@
         
         .text-box {
             width: 30%;
+            padding: 10px;
             border: 1px solid #4c4c4c;
             
             h3 {
                 text-align: center;
                 background-color: #ffd1d1;
-                margin-top: 0;
                 width: 100%;
-                
                 
             }
         }
@@ -69,5 +70,4 @@ footer {
         padding: 10px 20px;
         width: 100px;
     }
-    
 }
