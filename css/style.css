@@ -13,7 +13,7 @@
   display: block;
   border: 2px solid #fff;
   width: 96%;
-  margin: 20px auto; }
+  margin: 30px auto; }
   #text-container h2 {
     text-align: center; }
   #text-container .flex {
@@ -21,11 +21,12 @@
     justify-content: space-between; }
     #text-container .flex .text-box {
       width: 30%;
-      border: 1px solid #4c4c4c; }
+      border: 1px solid #4c4c4c;
+      text-align: center;
+      margin-top: 10px; }
       #text-container .flex .text-box h3 {
         text-align: center;
         background-color: #ffd1d1;
-        margin-top: 0;
         width: 100%; }
 
 @media (max-width: 768px) {
